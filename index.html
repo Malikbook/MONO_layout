@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONO</title>
+
+    <!-- style -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header_interface">
+      <div class="header_cont">
+        <a href="#" class="link-num">080 075 07 75</a>
+
+        <div class="logo">
+          <img src="images/Logo.png" alt="Logo" height="50px" width="200px" />
+          <span class="logo_after">jewelry</span>
+        </div>
+
+        <div class="link_interface">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        </div>
+      </div>
+
+      <div class="nav_container">
+        <nav class="header_nav">
+          <a href="#" class="nav_link">Серьги</a>
+          <a href="#" class="nav_link">Кольца</a>
+          <a href="#" class="nav_link">Браслеты</a>
+          <a href="#" class="nav_link">Подвески</a>
+          <a href="#" class="nav_link">Колье</a>
+          <a href="#" class="nav_link">Персонализированные украшения</a>
+        </nav>
+      </div>
+    </header>
+    <!-- goods -->
+    <div class="goods">
+      <div class="block">
+        <div class="goods_container">
+          <img
+            class="goods_img img_block"
+            src="images/goods_img.png"
+            alt="goods"
+          />
+          <img class="goods_img" src="images/setttt_img.png" alt="goods" />
+
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+        </div>
+
+        <!-- info goods -->
+
+        <div class="goods_interface">
+          <ul class="breadcrumb">
+            <li class="crumbs_link"><a href="#">Главная</a></li>
+            <li class="crumbs_link"><a href="#">Колье</a></li>
+            <li class="crumbs_link">
+              <a class="crumbs_active" href="#">Колье Безграничность</a>
+            </li>
+          </ul>
+
+          <h1 class="goods_name">Колье безграничность с камнем</h1>
+
+          <div class="goods_state">
+            <span class="g_state">В наличии</span>
+            <span class="g_state"
+              >Артикул: <sapan class="art">k04609</sapan></span
+            >
+          </div>
+
+          <div class="goods_price">
+            <h3 class="old_price">670 грн.</h3>
+            <h3 class="new_price">480 грн.</h3>
+          </div>
+
+          <div class="goods_length">
+            <span
+              >Длинна:
+              <a class="minus"><i class="fas fa-minus"></i></a>
+              <span class="lenght">17.5</span>см
+              <a class="plus"><i class="fas fa-plus"></i></a
+            ></span>
+          </div>
+
+          <div class="goods-btn">
+            <button type="submit">В корзину</button>
+            <button type="submit">Быстрый заказ</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="goods_tabs">
+        <div class="tab-links">
+          <button
+            class="tab_links active"
+            onclick="openTabs(event, 'description')"
+          >
+            Описание
+          </button>
+          <button class="tab_links" onclick="openTabs(event, 'packaging')">
+            Упаковка
+          </button>
+          <button class="tab_links" onclick="openTabs(event, 'delivery')">
+            Доставка
+          </button>
+        </div>
+
+        <div id="description" class="tab_content active">
+          <p class="desc_text">
+            Угловатая концепция, смысловая нагрузка и такая завораживающая
+            лаконичность - то, что составляет прекрасное минималистичиское
+            колье.
+          </p>
+
+          <div class="desc_characteristic">
+            <p class="character">
+              Металл:<br />
+              <span class="character_text">Красное золото 585"</span>
+            </p>
+
+            <p class="character">
+              Вставка:<br />
+              <span class="character_text">Камень</span>
+            </p>
+
+            <p class="character">
+              Покрытие:<br />
+              <span class="character_text">Без покрытия</span>
+            </p>
+
+            <p class="character">
+              Вес:<br />
+              <span class="character_text">&asymp; 1.45 грамм</span>
+            </p>
+
+            <p class="character">
+              Производитель:<br />
+              <span class="character_text">Украина</span>
+            </p>
+          </div>
+        </div>
+
+        <div id="packaging" class="tab_content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet rerum
+            esse reprehenderit ex quidem deleniti quia, dignissimos, alias
+            facilis eaque doloremque aliquid fugiat officiis modi voluptas
+            ratione perferendis recusandae placeat hic reiciendis a pariatur
+            suscipit! Quidem nostrum sequi et omnis dolorum, minus veritatis
+            quos atque blanditiis in maxime doloremque voluptates ipsam optio
+            fugiat modi sapiente eveniet eligendi sed quo magni placeat
+            aspernatur. Dicta cupiditate reiciendis repellendus suscipit ea
+            impedit at, amet facere veritatis voluptatem voluptatibus sit
+            perferendis alias voluptate exercitationem ipsam! Perferendis, nulla
+            nesciunt, facilis itaque quisquam minima iusto optio accusantium
+            corrupti voluptas aut quia vitae voluptatem animi iste quo!
+          </p>
+        </div>
+
+        <div id="delivery" class="tab_content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet rerum
+            esse reprehenderit ex quidem deleniti quia, dignissimos, alias
+            facilis eaque doloremque aliquid fugiat officiis modi voluptas
+            ratione perferendis recusandae placeat hic reiciendis a pariatur
+            suscipit! Quidem nostrum sequi et omnis dolorum, minus veritatis
+            quos atque blanditiis in maxime doloremque voluptates ipsam optio
+            fugiat modi sapiente eveniet eligendi sed quo magni placeat
+            aspernatur.
+          </p>
+        </div>
+      </div>
+
+      <div class="connection">
+        <span class="connection_link">Связаться с нами через:</span>
+        <a hreh="#"><i class="fab fa-viber"></i> Viber</a>
+        <a hreh="#"><i class="fab fa-telegram-plane"></i> Telegram</a>
+      </div>
+    </div>
+
+    <!-- set -->
+
+    <div class="set">
+      <h1 class="set_title">Комплект</h1>
+
+      <div class="set_goods">
+        <div class="good">
+          <img src="images/set_img.png" alt="set goods" />
+          <span>Серьги Безграничность</span><br />
+          <span><span class="g_price">400</span>грн</span>
+        </div>
+
+        <i class="fas fa-plus pluss"></i>
+
+        <div class="good">
+          <img src="images/sett_img.png" alt="set goods" />
+          <span>Подвеска Безграничность</span><br />
+          <span><span class="g_price">450</span>грн</span>
+        </div>
+
+        <i class="fas fa-plus pluss"></i>
+
+        <div class="good">
+          <img src="images/settt_img.png" alt="set goods" />
+          <span>Подвеска Безграничность</span><br />
+          <span><span class="g_price">450</span>грн</span>
+        </div>
+
+        <i class="fas fa-equals equally"></i>
+
+        <div class="good">
+          <img src="images/setttt_img.png" alt="set goods" />
+          <span>Комплект Безграничность</span><br />
+
+          <div class="g_prices">
+            <span><span class="good_price">1300</span>грн</span>
+            <span><span class="g_setPrice">900</span>грн</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="set_button">Купить комплект</button>
+    </div>
+
+    <!-- also buy -->
+
+    <div class="also_buy">
+      <h1 class="slider_title">Также покупают</h1>
+
+      <div class="also_buy_slider">
+        <div class="slider__wrapper">
+          <div class="slider__item">
+            <img class="item" src="images/also_buy_img.png" alt="item" />
+            <span>Браслет Безграничность</span><br />
+            <span class="also_buy_price"
+              ><span class="also_buy_price">480</span>грн</span
+            >
+          </div>
+
+          <div class="slider__item">
+            <img class="item" src="images/alsoo_buy_img.png" alt="item" />
+            <span>Подвеска Весение наслаждение</span><br />
+            <span class="also_buy_price"
+              ><span class="also_buy_price">450</span>грн</span
+            >
+          </div>
+
+          <div class="slider__item">
+            <img class="item" src="images/alsooo_buy_img.png" alt="item" />
+            <span>Подвеска Вокруг света</span><br />
+            <span class="also_buy_price"
+              ><span class="also_buy_price">640</span>грн</span
+            >
+          </div>
+
+          <div class="slider__item">
+            <img class="item" src="images/alsoooo_buy_img.png" alt="item" />
+            <span>Кольцо Вираж</span><br />
+            <span class="also_buy_price"
+              ><span class="also_buy_price">780</span>грн</span
+            >
+          </div>
+        </div>
+
+        <a class="slider__control slider__control_left">&#10094;</a>
+        <a class="slider__control slider__control_right slider__control_show"
+          >&#10095;</a
+        >
+      </div>
+    </div>
+
+    <!-- your see -->
+
+    <div class="your_see">
+      <h1 class="yourSee_title">Вы смотрели</h1>
+
+      <div class="your_see_slider">
+        <div class="your_see_slider__wrapper">
+          <div class="slider_item">
+            <img class="item_s" src="images/you_watched_img.png" alt="item" />
+            <span>Колье Безграничность</span><br />
+            <span class="see_price"><span class="see_price">480</span>грн</span>
+          </div>
+
+          <div class="slider_item">
+            <img class="item_s" src="images/you_watchedd_img.png" alt="item" />
+            <span class="item_desc">Подвеска Весение наслаждение</span><br />
+            <span class="see_price"><span class="see_price">450</span>грн</span>
+          </div>
+
+          <div class="slider_item">
+            <img class="item_s" src="images/you_watcheddd_img.png" alt="item" />
+            <span>Подвеска Вокруг света</span><br />
+            <span class="see_price"><span class="see_price">640</span>грн</span>
+          </div>
+
+          <div class="slider_item">
+            <img
+              class="item_s"
+              src="images/you_watchedddd_img.png"
+              alt="item"
+            />
+            <span>Колье Вираж</span><br />
+            <span class="see_price"><span class="see_price">780</span>грн</span>
+          </div>
+        </div>
+
+        <a class="s_control slider_control_left prev_s">&#10094;</a>
+        <a class="s_control slider_control_right slider__control_show next_s"
+          >&#10095;</a
+        >
+      </div>
+    </div>
+
+    <!-- mailing -->
+
+    <div class="maling_container">
+      <div class="maling">
+        <p class="maling_descr">
+          Подпишитесть на рассылку и получите купон на бесплатную доставку
+        </p>
+
+        <form class="form_email" method="POST" action="">
+          <input
+            class="input_email maling_element"
+            type="email"
+            name="user_email"
+            required
+            placeholder="Ваша почта"
+          />
+
+          <button
+            class="button_email maling_element"
+            name="submit"
+            type="submit"
+          >
+            Подписаться
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="footer_logo">
+        <div class="foot_group_logo">
+          <img
+            src="images/Logo.png"
+            alt="Logo"
+            height="50px"
+            width="200px"
+          /><br />
+          <span class="foot_logo_after">jewelry</span>
+        </div>
+        <small class="copyrright">
+          Copyrifht &copy; 2019 All right reserved</small
+        >
+      </div>
+
+      <div class="about_us">
+        <a href="" class="about_link">О нас</a>
+        <a href="" class="about_link">Доставка и Оплата</a>
+        <a href="" class="about_link">Карта сайта</a>
+      </div>
+
+      <div class="receiving_calls">
+        <span class="receiving">Прием звонков:</span>
+        <ul>
+          <li class="days">ПН-СБ: 09:00 - 19:00</li>
+          <li class="days">ВС: Выходной</li>
+        </ul>
+      </div>
+
+      <div class="orders">
+        <span class="receiving">Заказы ONLINE:</span>
+        <p class="order_desc">круглосуточно</p>
+      </div>
+
+      <div class="social_network">
+        <a href="#" class="link_num">080 075 07 75</a>
+        <div class="social_links">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-telegram-plane"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="main_js.js" defer></script>
+  </body>
+</html>
